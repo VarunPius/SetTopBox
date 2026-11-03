@@ -6,7 +6,7 @@ A first-step Firefox WebExtension that automatically loads YouTube playlist page
 
 1. Open `about:debugging#/runtime/this-firefox`.
 2. Choose **Load Temporary Add-on…**.
-3. Select `SetTopBox/Firefox/manifest.json`.
+3. Select `Firefox/manifest.json` from the repository root.
 4. Open a YouTube playlist page. Loading starts automatically; use the lower-right control to pause or resume.
 
 Temporary add-ons are removed when Firefox closes. Reload the add-on after editing its files.
